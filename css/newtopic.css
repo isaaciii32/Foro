@@ -1,0 +1,148 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 56px;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: white;
+}
+
+.nav-underline .nav-link:hover {
+    color: #c2c2c2;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.bg-purple {
+    background-color: #900C3F;
+}
+
+.lh-100 {
+    line-height: 1;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-150 {
+    line-height: 1.5;
+}
+
+#bodyBG {
+    background-color: white;
+}
+
+#navbarBG {
+    background-color: #C70039;
+}
+
+#navscrollBG {
+    background-color: #900C3F;
+}
+
+#textBANNER {
+    color: white;
+}
+
+.contBG1 {
+    background-color: whitesmoke;
+}
+
+.separadorFOOTER {
+    bottom: 0;
+    position: absolute;
+    background-color: #C70039;
+    height: 62px;
+    width: 100%;
+}
+
+h6 {
+    color: black;
+}
+
+.linksIm {
+    color: white;
+}
+
+.linksIm:hover {
+    color: #c2c2c2;
+}
+
+#badgeBG {
+    background-color: white;
+    color: #C70039;
+}
+
+.footer {
+    background-color: #900C3F;
+    color: #fff;
+    line-height: 60px;
+    position: absolute;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.welcome {
+    color: white;
+}
+.text-center{
+    padding-top: 18px;
+}
+
+.parrafo{
+    color: black;
+}
+
+.boton{
+    background-color: #581845;
+    border-color: #581845;
+    color: white;
+}
+
+.boton:hover{
+    background-color: white;
+    border-color: #C70039;
+    color: black;
+}
+
+.linksCont{
+    color: #900C3F;
+}
+.linksCont:hover{
+    color: #C70039;
+}
+
+.mini-profile{
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 600px) {
+    .profileimgdiv{
+        visibility: hidden!important;
+    }
+    .mini-profile{
+        height: 0px;
+        width: 0px;
+    }
+}

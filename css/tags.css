@@ -1,0 +1,198 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 56px;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px; /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #343a40;
+        transition-timing-function: ease-in-out;
+        transition-duration: .3s;
+        transition-property: left, visibility;
+    }
+
+    .offcanvas-collapse.open {
+        left: 0;
+        visibility: visible;
+    }
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: white;
+}
+
+.nav-underline .nav-link:hover {
+    color: #c2c2c2;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+.bg-purple {
+    background-color: #900C3F;
+}
+
+.lh-100 {
+    line-height: 1;
+}
+
+.lh-125 {
+    line-height: 1.25;
+}
+
+.lh-150 {
+    line-height: 1.5;
+}
+
+#bodyBG {
+    background-color: white;
+}
+
+#navbarBG {
+    background-color: #C70039;
+}
+
+#navscrollBG {
+    background-color: #900C3F;
+}
+
+#textBANNER {
+    color: white;
+}
+
+.contBG1 {
+    background-color: whitesmoke;
+}
+
+.separadorFOOTER {
+    background-color: #C70039;
+    bottom: 0;
+    position: absolute;
+    height: 62px;
+    width: 100%;
+}
+
+h6 {
+    color: black;
+}
+
+.linksIm {
+    color: white;
+}
+
+.linksIm:hover {
+    color: #c2c2c2;
+}
+
+#badgeBG {
+    background-color: white;
+    color: #C70039;
+}
+
+.footer {
+    background-color: #900C3F;
+    color: #fff;
+    line-height: 60px;
+    position: absolute;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.welcome {
+    color: white;
+}
+.text-center{
+    padding-top: 18px;
+}
+
+.parrafo{
+    color: black;
+}
+
+
+
+.linksCont{
+    color: #900C3F;
+}
+.linksCont:hover{
+    color: #C70039;
+}
+a{
+    color: white;
+}
+.boton{
+    background-color: #581845;
+    border-color: #581845;
+    color: white!important;
+    margin-right: 8px;
+}
+
+.boton:hover{
+    background-color: white;
+    border-color: #C70039;
+    color: black!important;
+}
+
+.mini-profile{
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 600px) {
+    .profileimgdiv{
+        visibility: hidden!important;
+    }
+    .mini-profile{
+        height: 0px;
+        width: 0px;
+    }
+}
